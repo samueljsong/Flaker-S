@@ -1,0 +1,33 @@
+user
+- user_id
+- username
+- email
+- password
+- user_pic int => number
+
+events
+- event_id
+- name
+- description
+- creator_id
+- date
+- start_time
+- end_time
+- friend_group
+- location
+- deleteDate default NULL
+
+friendgroup
+- group_id
+- name
+
+group_members
+- group_memebers_id
+- frn_group_id
+- frn_user_id
+
+friends
+- friends_id
+- requester_id
+- receiver_id
+- friends
